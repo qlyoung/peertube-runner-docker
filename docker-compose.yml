@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+  peertube-runner:
+    build:
+      context: .
+    volumes:
+      - ./config/peertube-runner-nodejs:/root/.config/peertube-runner-nodejs
